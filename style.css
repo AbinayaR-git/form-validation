@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+}
+#Form-Validate{
+    border: 1px solid black;
+    width: 30vw;
+    min-width: 300px;
+    height: 60vh;
+    box-shadow: 2px 2px 5px palevioletred;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+}
+#Form-Validate>.form-group{
+    display: flex;
+    flex-direction: column;
+}
+#Form-Validate>.form-group input{
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding: 5px;
+}
+#Form-Validate button{
+    height: 35px;
+    background-color: rgb(81, 81, 204);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#Form-Validate label{
+    font-size: 20px;
+    color: rgb(149, 74, 220);
+    margin-bottom: 5px;
+}
+#Form-Validate .form-group span{
+    color: red;
+}
